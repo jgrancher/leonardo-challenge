@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
+import { Flex } from "@chakra-ui/react";
 
+import { Header } from "@/components/Header";
 import { fonts } from "@/lib/fonts";
 import { Providers } from "@/lib/providers";
 import "@/styles/globals.css";
@@ -16,7 +18,12 @@ export default function RootLayout({
   return (
     <html lang="en" className={fonts.inter.variable}>
       <body>
-        <Providers>{children}</Providers>
+        <Providers>
+          <Header />
+          <Flex as="main" flexDir="column" flex={1}>
+            {children}
+          </Flex>
+        </Providers>
       </body>
     </html>
   );
