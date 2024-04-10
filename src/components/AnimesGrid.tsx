@@ -17,7 +17,7 @@ export const AnimesGrid = () => {
   const page = Math.max(1, parseInt(pageParam, 10)); // TODO: Improve this and handle NaN.
 
   // Fetch the popular animes from the GraphQL API
-  let { loading, error, data } = useQuery<GetAnimesData>(GET_ANIMES, {
+  const { loading, error, data } = useQuery<GetAnimesData>(GET_ANIMES, {
     variables: { page },
   });
 

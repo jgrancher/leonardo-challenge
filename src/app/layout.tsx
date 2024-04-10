@@ -20,7 +20,15 @@ export default function RootLayout({
       <body>
         <Providers>
           <Header />
-          <Flex as="main" flexDir="column" flex={1}>
+          <Flex
+            as="main"
+            flexDir="column"
+            // A min-height is set to ensure the loader stays "in place" when the content is loading.
+            minHeight={{
+              base: "calc(100lvh - 48px)",
+              lg: "calc(100lvh - 64px)",
+            }}
+          >
             {children}
           </Flex>
         </Providers>

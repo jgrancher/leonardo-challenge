@@ -12,14 +12,14 @@ export const Header = () => {
       color="white"
       justifyContent="space-between"
       paddingX={{ base: 4, lg: 8 }}
-      paddingY={{ base: 2, lg: 4 }}
+      height={{ base: 12, lg: 16 }}
     >
       <Link display="flex" alignItems="center" gap={2} href="/">
         <Image
           alt="Logo of Leonardo.ai"
           src="/images/leonardo-logo.svg"
-          width={12}
-          height={12}
+          width={{ base: 8, lg: 10 }}
+          height={{ base: 8, lg: 10 }}
         />
         <Text
           as="h1"
