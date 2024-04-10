@@ -20,17 +20,15 @@ You can start editing the page by modifying `app/page.tsx`. The page auto-update
 
 This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-## Learn More
+## Notes and optimisations
 
-To learn more about Next.js, take a look at the following resources:
+I probably have spent way more than 4 hours on this, and it still has room for improvements. It's just hard to stop once you get started and want to deliver a feeling of a "finished product", given the technical constraints.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+If it were up to me, and given more time, I would probably work on the following:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- More content on the modal (embed a React Player to display the trailer for each anime, for example).
+- Build a "logout" button in the header that would delete the cookies (simple UX stuff, but right now it's not possible).
+- Get rid of Apollo and find a tool that would work nicely with RSC and provide content on the first load (for SEO reasons).
+- The same way that Chakra-UI was mandatory in this test (and even though I love it), I'd try to redo it with Tailwind only, so that it's more "RSC friendly".
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+I hope you'll like this app anyways. I'd be happy to discuss this further with the team!
