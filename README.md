@@ -1,4 +1,6 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+This is my job application' technical challenge for [Leonardo.ai](https://leonardo.ai/).
+
+<img width="1308" alt="Screenshot" src="https://github.com/jgrancher/leonardo-challenge/assets/5517450/47d8eabd-a5c9-45be-a0ba-aab908963047">
 
 ## Getting Started
 
