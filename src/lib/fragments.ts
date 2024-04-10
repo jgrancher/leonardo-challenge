@@ -12,5 +12,19 @@ export const mediaTile = gql`
       medium
       color
     }
+    averageScore
+    description
+    episodes
+    startDate {
+      year
+      month
+      day
+    }
+    endDate {
+      year
+      month
+      day
+    }
+    status
   }
 `;
